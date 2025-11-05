@@ -1,0 +1,135 @@
+/* Resetting some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Hero Section */
+#accueil {
+  background: url('https://via.placeholder.com/1600x900') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+#accueil h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+#accueil p {
+  font-size: 1.5rem;
+}
+
+/* Projets Section */
+#projets {
+  background-color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#projets h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.projets-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.projet {
+  background-color: #e3e3e3;
+  padding: 20px;
+  margin: 10px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.projet:hover {
+  transform: translateY(-10px);
+}
+
+.projet h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.projet p {
+  font-size: 1rem;
+}
+
+/* Contact Section */
+#contact {
+  padding: 50px 20px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+#contact form input, #contact form textarea {
+  width: 80%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+#contact form button {
+  background-color: #5cb85c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#contact form button:hover {
+  background-color: #4cae4c;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
